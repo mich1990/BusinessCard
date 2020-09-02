@@ -1,28 +1,36 @@
 <html lang="en-GB">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Business Card</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
-</head>
-<body >
-    <main class="main"> 
-        <article class="person">
-            <img src="avatar.png"/>
-            <header class="person__info">
-                <h1 class="info__name">Michal Michalski</h1>
-                <p class="info__position">Software Developer</p>
-            </header>
-                <p class="person__about">
-                    Programista z kilkunastoletnim doświadczeniem, fotograf, 
-                    operator drona, właściciel Sokoła Millennium (na razie tylko z Lego), 
-                    prelegent i szkoleniowiec. Uwielbia eksperymentować z nowymi technologiami, 
-                    w swojej twórczości ocierając się o sztukę. 
-                </p>
-                <p class="person__links">
-                    W sieci: <a>Facebook</a>, <a>GitHub</a>, <a>Instagram</a>.
-                </p>
-        </article>
+  </head>
+  <body>
+    <main class="main">
+      <article class="person">
+        <img class="person__avatar" src="avatar.png" />
+        <div>
+          <header class="person__info">
+            <h1 class="info__name">Michal Michalski</h1>
+            <p class="info__position">Software Developer</p>
+          </header>
+          <p class="person__about person__about--with-margin">
+            Programista z
+            <strong class="special">kilkunastoletnim doświadczeniem</strong> ,
+            fotograf, operator drona, właściciel Sokoła Millennium (na razie
+            tylko z Lego),<strong class="special">
+              prelegent i szkoleniowiec</strong
+            >
+            . Uwielbia eksperymentować z nowymi technologiami, w swojej
+            twórczości ocierając się o sztukę.
+          </p>
+          <p class="person__about">
+            W sieci: <a class="person__link" href="#">Facebook</a>,
+            <a class="person__link" href="#">GitHub</a>,
+            <a class="person__link" href="#">Instagram</a>.
+          </p>
+        </div>
+      </article>
     </main>
-</body>
+  </body>
 </html>
