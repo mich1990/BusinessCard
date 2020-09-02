@@ -4,3 +4,55 @@ html{
 *, *::before, *::after{
     box-sizing: inherit;
 }
+body{
+    background-color: #2C2141;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+    background-color: #F8F8F8;
+    border-radius: 16px;
+    width: 624px;
+    margin: 16px;
+    padding: 32px;
+}
+.person{
+    display: flex;
+}
+.person__info{
+    margin-bottom: 24px;
+}
+.info__name{
+    margin: 0px;
+    font-size: 36px;
+    font-weight: normal;
+}
+.info__position{
+    margin: 0px;
+    font-style: italic;
+    font-size: 18px;
+    color: #545454;
+}
+.person__avatar{
+    height: 148px;
+    width: 148px;
+    margin-right: 32px;
+}
+.person__about{
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0px;
+}
+.person__about--with-margin{
+    margin-bottom: 22px;
+}
+.person__link{
+    color: red;
+    text-decoration: none;
+}
+.special{
+    color: #c96c03
+}
