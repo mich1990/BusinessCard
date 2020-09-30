@@ -51,6 +51,12 @@ body{
     font-size: 18px;
     color: #545454;
 }
+.info__language {
+    display: inline-flex;
+}
+.language__buttons {
+    padding-left: 42px;
+}
 .person__avatar{
     height: 120px;
     width: 148px;
