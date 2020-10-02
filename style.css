@@ -58,9 +58,12 @@ body{
     padding-left: 42px;
 }
 .person__avatar{
-    height: 120px;
-    width: 148px;
     margin-right: 32px;
+    display: block;
+    max-width:148px;
+    max-height:120px;
+    width: auto;
+    height: auto;
 }
 .person__about{
     font-size: 16px;
@@ -81,11 +84,5 @@ body{
 @media screen and (max-width: 425px) {
     .person{
         display: inline-grid;
-    }
-
-    .person__avatar{
-        max-height: 120px;
-        max-width: 148px;
-        margin-right: 32px;
     }
 }
