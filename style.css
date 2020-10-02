@@ -85,4 +85,7 @@ body{
     .person{
         display: inline-grid;
     }
+    .language__buttons {
+        padding-left: 50px;
+    }
 }
