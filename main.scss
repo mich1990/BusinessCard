@@ -1,0 +1,44 @@
+//Variables
+$tabletScreenSize: 425px; 
+
+//Imports
+@import "modules/person.scss";
+@import "modules/button.scss";
+@import "modules/info.scss";
+
+html{
+    box-sizing: border-box;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+body{
+    background-color: #2C2141;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main{
+    background-color: #F8F8F8;
+    border-radius: 16px;
+    width: 624px;
+    margin: 16px;
+    padding: 32px;
+}
+
+.special{
+    color: #c96c03
+}
+
+@media screen and (max-width: $tabletScreenSize) {
+    .person{
+        display: inline-grid;
+    }
+    .language__buttons {
+        padding-left: 50px;
+    }
+}

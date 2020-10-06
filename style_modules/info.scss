@@ -1,0 +1,16 @@
+.info{
+    &__name{
+        margin: 0px;
+        font-size: 36px;
+        font-weight: normal;
+    }
+    &__position{
+        margin: 0px;
+        font-style: italic;
+        font-size: 18px;
+        color: #545454;
+    }
+    &__language {
+        display: inline-flex;
+    }
+}
