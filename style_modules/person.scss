@@ -1,0 +1,30 @@
+.person{
+    display: flex;
+    &__info{
+        margin-bottom: 24px;
+    }
+    &__name{
+        margin: 0px;
+        font-size: 36px;
+        font-weight: normal;
+    }
+    &__avatar{
+        margin-right: 32px;
+        display: block;
+        max-width: 117px;
+        max-height: 120px;
+        width: 100%;
+    }
+    &__about{
+        font-size: 16px;
+        line-height: 22px;
+        margin: 0px;
+    }
+    &__about--with-margin{
+        margin-bottom: 22px;
+    }
+    &__link{
+        color: red;
+        text-decoration: none;
+    }
+}
